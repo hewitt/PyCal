@@ -1,0 +1,20 @@
+License: GPL3, http://www.gnu.org/copyleft/gpl.html
+
+A very simple text-based calendar event tracker. If, like me, you don't
+have every second of your day timetabled but do want to keep track
+of a handful of events, then most app/web-based calendars are overkill. 
+The aim here is to do only very simple things, via text files and CLI.
+I wanted to make something that works like todo.sh 
+(http://ginatrapani.github.com/todo.txt-cli/) but keeps track of a few 
+date-tagged items.
+
+See the top of the code for defaults, including the filename of the
+calendar file.
+
+I usually pipe the output to a 'conky' display to keep forthcoming
+calendar items on my desktop. Meanwhile, my machines are sync'd by
+Unison, which ensures that the cal.txt file is up to date on all
+of them. I have PyCal.py aliased to 'c' in the same way that I have
+'todo.sh' aliased to 't'.
+
+
